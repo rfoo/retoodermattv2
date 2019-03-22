@@ -47,10 +47,9 @@ disableHugoGeneratorInject = false
   category = ""
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04 -0700"
+  dateformShort   = "2 Jan "
+  dateform            = "Monday, 2. January 2006"
+  dateformfull        = "Mon 2 Jan 2006 15:04:05 EST"
 
   # Metadata mostly used in document's head
   description = "Just some site"
