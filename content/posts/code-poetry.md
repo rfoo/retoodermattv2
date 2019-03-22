@@ -1,6 +1,6 @@
 ---
 title: Code Poetry
-categories: Poen
+categories: Go
 type: Post
 author: Reto
 date: '23-03-2019 00:00'
