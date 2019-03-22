@@ -1,5 +1,8 @@
 ---
 title: Code Poetry
+categories: Poen
+type: Post
+author: Reto
 date: '23-03-2019 00:00'
 ---
 Pseudo `code` poem.
