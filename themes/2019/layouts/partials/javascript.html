@@ -5,7 +5,7 @@
 {{ $secureJS := $js | resources.Fingerprint "sha512" }}
 <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
 
-{{- if .Site.GoogleAnalytics }}
+{{- if .Site.Analytics }}
     <!-- Matomo -->
     <script type="text/javascript">
         var _paq = window._paq || [];
