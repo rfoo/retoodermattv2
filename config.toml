@@ -3,7 +3,7 @@ title   = "Reto Odermatt"
 
 DefaultContentLanguage = "en"
 
-theme = "hello-friend-what"
+theme = "2019"
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -11,7 +11,9 @@ PygmentsStyle = "monokai"
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
-# googleAnalytics = ""
+
+
+Analytics = "matomo.rfoo.ch"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -42,19 +44,20 @@ disableHugoGeneratorInject = false
 [blackfriday]
   hrefTargetBlank = true
 
-[taxonomies]
-  tag      = "tags"
-  category = ""
 
 [params]
   dateformShort   = "2 Jan "
-  dateform            = "Monday, 2. January 2006"
-  dateformfull        = "Mon 2 Jan 2006 15:04:05 EST"
+  dateform        = "Monday, 2. January 2006"
+  dateformfull    = "Mon 2 Jan 2006 15:04:05 EST"
 
   # Metadata mostly used in document's head
   description = "Just some site"
   keywords = "retoodermatt, reto"
   images = [""]
+
+ [params.categories] 
+  categories = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
+
 
   homeSubtitle = "Personal Website"
 
@@ -76,7 +79,7 @@ disableHugoGeneratorInject = false
   themeColor = "#252627"
 
   [params.logo]
-    logoText     = "#"
+    logoText     = ">"
     logoHomeLink = "/"
 
   # Social icons
@@ -88,6 +91,11 @@ disableHugoGeneratorInject = false
     name = "github"
     url  = "https://github.com/rfoo"
 
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/rfoo"
+ 
+
 
 [languages]
   [languages.en]
@@ -95,7 +103,7 @@ disableHugoGeneratorInject = false
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-  [languages.fr]
+  [languages.de]
     subtitle  = ""
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'

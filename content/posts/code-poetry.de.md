@@ -1,10 +1,10 @@
 ---
-title: A Poem
+title: Ein Gedicht
 date: '22-03-2019 13:00'
 tags : ["Hugo"]
 author: "Reto"
 date: 2018-03-31
-linktitle: A Poem
+linktitle: Ein Gedicht
 type:
 - post
 - posts
