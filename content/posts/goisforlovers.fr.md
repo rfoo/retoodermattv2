@@ -1,17 +1,13 @@
-+++
-categories = ["Go"]
-date = "2014-04-02"
-description = ""
-featured = "pic02.jpg"
-featuredalt = ""
-featuredpath = "date"
-linktitle = ""
-slug = "Introduction aux modeles Hugo"
-title = "Introduction aux modèles (Hu)go"
-type = ["posts","post"]
-[ author ]
-  name = "Michael Henderson"
-+++
+---
+title: Introduction aux modèles (Hu)go
+categories:
+  - Go
+type:
+  - posts
+  - post
+author: Reto
+date: '22-03-2019 00:00'
+---
 
 Hugo utilise l'excellente librairie [go][] [html/template][gohtmltemplate] pour
 son moteur de modèles. c'est un moteur extrêmement léger qui offre un très petit
