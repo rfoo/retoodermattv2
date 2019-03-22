@@ -13,7 +13,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 
 
 
-Analytics = "matomo.rfoo.ch"
+GoogleAnalytics = "matomo.rfoo.ch"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
