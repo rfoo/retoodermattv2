@@ -3,7 +3,7 @@ title: Einführung zu Hugo
 categories:
   - Go
 author: Reto Odermatt
-date: '24-03-2019 02:00'
+date: 2019-03-24
 ---
 
 Hugo utilise l'excellente librairie [go][] [html/template][gohtmltemplate] pour
