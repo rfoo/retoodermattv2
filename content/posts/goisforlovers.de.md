@@ -1,14 +1,9 @@
 ---
-categories : ["Go"]
-date : 2019-04-01
-description : ""
-featuredalt : ""
-featuredpath : "date"
-linktitle : ""
-slug : "Einführung zu Hugo"
-title : "Einführung zu Hugo"
-type : ["posts","post"]
-author : "Michael Henderson"
+title: Einführung zu Hugo
+categories:
+  - Go
+author: Reto Odermatt
+date: '24-03-2019 02:00'
 ---
 
 Hugo utilise l'excellente librairie [go][] [html/template][gohtmltemplate] pour
