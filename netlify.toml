@@ -4,7 +4,6 @@
   publish = "public"
 
 [context.deploy-preview]
- command = "hugo"
  command = "hugo --gc --minify"
 
 [context.production.environment]
