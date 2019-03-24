@@ -5,8 +5,8 @@ description : ""
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""
-slug : "Introduction aux modeles Hugo"
-title : "Introduction aux modèles (Hu)go"
+slug : "Einführung zu Hugo"
+title : "Einführung zu Hugo"
 type : ["posts","post"]
 author : "Michael Henderson"
 ---

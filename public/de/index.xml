@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reto Odermatt</title>
+    <link>https://retoodermatt.com/de/</link>
+    <description>Recent content on Reto Odermatt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    
+	<atom:link href="https://retoodermatt.com/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Über mich</title>
+      <link>https://retoodermatt.com/de/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://retoodermatt.com/de/about/</guid>
+      <description>Nur meine persönliche Seite.</description>
+    </item>
+    
+  </channel>
+</rss>
