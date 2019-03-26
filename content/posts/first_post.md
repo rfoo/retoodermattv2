@@ -11,4 +11,4 @@ type : ["posts","post"]
 author : "Reto Odermatt"
 ---
 
-Hi, just a first post
+Hi, just a first post.
