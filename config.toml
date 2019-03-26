@@ -36,7 +36,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  posts = "/posts/:year/:month/:day/:title/"
 
 [author]
   name = "Reto Odermatt"
@@ -48,21 +48,18 @@ disableHugoGeneratorInject = false
 [params]
   dateformShort   = "2 Jan "
   dateform        = "Monday, 2. January 2006"
-  dateformfull    = "Mon 2 Jan 2006 15:04:05 EST"
+  dateformfull    = "Mon 2 Jan 2006 15:04 GMT"
+  dateformNum = "02.01.2006"
 
   # Metadata mostly used in document's head
   description = "Just some site"
   keywords = "retoodermatt, reto"
   images = [""]
 
- [params.categories] 
-  categories = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
-
-
   homeSubtitle = "Personal Website"
 
   #Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/rfoo/retoodermattv2"
+  gitUrl = "https://github.com/rfoo/retoodermattv2/commit/"
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -77,6 +74,9 @@ disableHugoGeneratorInject = false
   # Default theme "light" or "dark"
   defaultTheme = "dark"
   themeColor = "#252627"
+
+ [params.categories] 
+  categories = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
 
   [params.logo]
     logoText     = ">"
