@@ -13,3 +13,17 @@ HUGO_VERSION = "0.54.0"
 HUGO_VERSION = "0.54.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+
+    # COMMENT: Multi-key header rules are expressed with multi-line strings
+	cache-control = '''
+	max-age=0,
+	no-cache,
+	no-store,
+	must-revalidate'''
