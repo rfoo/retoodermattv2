@@ -21,6 +21,9 @@ HUGO_ENABLEGITINFO = "true"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
 
+    # CSP
+    Content-Security-Policy: script-src 'strict-dynamic' 'nonce-rAnd0m123' 'unsafe-inline' http: https:; object-src 'none'; base-uri 'none'; report-uri https://reto.report-uri.com/r/d/csp/enforce;
+
     # COMMENT: Multi-key header rules are expressed with multi-line strings
 	cache-control = '''
 	max-age=0,
