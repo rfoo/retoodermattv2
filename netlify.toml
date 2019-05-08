@@ -22,7 +22,7 @@ HUGO_ENABLEGITINFO = "true"
     X-Content-Type-Options = "nosniff"
 
     # CSP Policy
-    Content-Security-Policy: "upgrade-insecure-requests; report-uri https://reto.report-uri.com/r/d/csp/enforce"
+    Content-Security-Policy: "'upgrade-insecure-requests'; report-uri https://reto.report-uri.com/r/d/csp/enforce"
     Feature-Policy = "vibrate none"
     Referrer-Policy = "strict-origin"
     # COMMENT: Multi-key header rules are expressed with multi-line strings
