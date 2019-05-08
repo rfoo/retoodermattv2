@@ -22,7 +22,7 @@ HUGO_ENABLEGITINFO = "true"
     X-Content-Type-Options = "nosniff"
 
     # CSP Policy
-    Content-Security-Policy = "base-uri 'self'; default-src 'self'; style-src 'self' cdnjs.cloudflare.com 'unsafe-inline'; script-src 'self' identity.netlify.com cdnjs.cloudflare.com matomo.rfoo.ch; font-src 'self' fonts.googleapis.com ; img-src 'self' matomo.rfoo.ch ; object-src 'none'; frame-src 'self'; frame-ancestors 'none'; upgrade-insecure-requests; report-uri https://reto.report-uri.com/r/d/csp/enforce;"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' identity.netlify.com cdnjs.cloudflare.com matomo.rfoo.ch; style-src 'self' unpkg.com cdnjs.cloudflare.com; img-src 'self' cdnjs.cloudflare.com matomo.rfoo.ch w3.org; font-src 'self' cdnjs.cloudflare.com matomo.rfoo.ch; connect-src 'self'; object-src 'self'; child-src 'self'; frame-src 'self'; frame-ancestors 'none'; report-uri https://reto.report-uri.com/r/d/csp/enforce"
     Feature-Policy = "vibrate none"
     Referrer-Policy = "strict-origin"
     # COMMENT: Multi-key header rules are expressed with multi-line strings
