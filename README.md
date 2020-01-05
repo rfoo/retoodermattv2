@@ -1,6 +1,8 @@
 # retoodermattv2
 new hugo theme 2019
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/43ae2aa2-8535-4265-9f7f-a62ed014e7c9/deploy-status)](https://app.netlify.com/sites/retoodermatt/deploys)
+
 ## New Theme
 
 Just a new theme for 2019 for my personal homepage. 
