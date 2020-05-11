@@ -1,124 +1,3 @@
-######################## default configuration ####################
-baseURL = "https://retoodermatt.com"
-<<<<<<< Updated upstream
-title   = "Reto Odermatt"
-
-DefaultContentLanguage = "en"
-
-theme = "novela_v2"
-
-PygmentsCodeFences = true
-PygmentsStyle = "monokai"
-
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
-
-
-
-GoogleAnalytics = "matomo.rfoo.ch"
-
-archetypeDir = "archetypes"
-contentDir   = "content"
-dataDir      = "data"
-layoutDir    = "layouts"
-publishDir   = "public"
-
-buildDrafts  = false
-buildFuture  = false
-buildExpored = false
-canonifyURLs = true
-
-enableRobotsTXT = true
-enableGitInfo   = true
-enableEmoji     = true
-#enableMissingTranslationPlaceholders = false
-#disableRSS     = false
-#disableSitemap = false
-#disable404     = false
-#disableHugoGeneratorInject = false
-
-[permalinks]
-  posts = "/posts/:year/:month/:day/:title/"
-
-[author]
-  name = "Reto Odermatt"
-
-
-[params]
-  dateformShort   = "2 Jan "
-  dateform        = "Monday, 2. January 2006"
-  dateformfull    = "Mon 2 Jan 2006 15:04 GMT"
-  dateformNum = "02.01.2006"
-
-  # Metadata mostly used in document's head
-  description = "Just some site"
-  keywords = "retoodermatt, reto"
-  images = [""]
-
-  homeSubtitle = "Personal Website"
-
-  #Prefix of link to the git commit detail page. GitInfo must be enabled.
-  gitUrl = "https://github.com/rfoo/retoodermattv2/commit/"
-
-  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
-  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
-  customCSS = []
-  customJS  = []
-
-  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = false  # Set "text-align: justify" to .content.
-
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#252627"
-
- [params.categories] 
-  categories = ["blog", "clean", "customizable", "dark", "highlighting", "light", "minimal", "monochromatic", "multilingual", "personal", "responsive", "simple", "technical"]
-
-  [params.logo]
-    logoText     = ">"
-    logoHomeLink = "/"
-
-  # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/retoodermatt"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/rfoo"
-
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://gitlab.com/rfoo"
- 
-
-#
-#[languages]
-#  [languages.en]
-#    subtitle  = ""
-#    weight    = 1
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-#
-#  [languages.de]
-#    subtitle  = ""
-#    weight    = 2
-#    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "about/"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "posts/"
-
-
-=======
 title = "Reto Odermatt"
 theme = "twentytwenty"
 languageName = "En"
@@ -130,7 +9,7 @@ summaryLength = "10"
 # disable language
 disableLanguages = [] # desable language from here
 # google analytics
-googleAnalytics = "1"
+# googleAnalytics = "1"
 
 
 
@@ -165,22 +44,6 @@ name = "Blog"
 URL = "blog"
 weight = 3
 
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 4
-
-[[menu.main]]
-name = "Sample Page"
-URL = "sample-page"
-weight = 5
-
-# only desktop menu
-[[menu.desktop]]
-name = "Contact"
-URL = "contact"
-weight = 1
-
 
 #################### default parameters ################################
 [params]
@@ -191,7 +54,7 @@ author = "reto"
 
 # banner
 [params.banner]
-heading = "Welcome"
+heading = "S'up"
 image = "images/2020-landscape-1-2.png"
 
 # blog
@@ -223,13 +86,9 @@ enable = true
 #content = "This may be a good place to introduce yourself and your site or include some credits."
 #address = "123 Main Street <br> New York, NY 10001"
 #hours = "Monday–Friday: 9:00AM–5:00PM <br> Saturday & Sunday: 11:00AM–3:00PM"
-copyright = "Copyright &copy; 2020 by [reto](https://retoodermatt.com)"
+copyright = "Copyright &copy; 2020 by [reto](https://retoodermatt.com). Made with [Hugo](https://gohugo.io/). Adapted Theme from [themefisher](https://github.com/themefisher/twenty-twenty-hugo)."
 
 ############################# social site ########################
 [params.social]
-yelp = "#"
-facebook = "#"
-twitter = "#"
-instagram = "#"
-email = "#"
->>>>>>> Stashed changes
+twitter = "https://twitter.com/retoodermatt"
+email = "web@retoodermatt.com"
