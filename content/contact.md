@@ -1,10 +1,19 @@
 ---
-title: Contact
-date: '22-03-2019 13:00'
+title: "Contact"
+date: 2020-09-15T11:30:03+00:00
+# weight: 1
+# aliases: ["/first"]
+tags: ["contact"]
 author: "Reto"
-linktitle: Contact
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: false
+comments: false
+description: "Desc Text."
+disableHLJS: true # to disable highlightjs
+disableHLJS: false
 ---
-
 
 <form method="POST" action="https://formspree.io/contact@retoodermatt.com">
     <input type="email" name="email" placeholder="Your email" name="_replyto"/><br>

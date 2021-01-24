@@ -1,43 +1,57 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reto Odermatt</title>
     <link>https://retoodermatt.com/</link>
     <description>Recent content on Reto Odermatt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 24 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://retoodermatt.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>First Post</title>
-      <link>https://retoodermatt.com/posts/2019/03/24/first-post/</link>
-      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://retoodermatt.com/posts/2019/03/24/first-post/</guid>
-      <description>Hi, just a first post.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://retoodermatt.com/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://retoodermatt.com/about/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
- https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
-    </item>
-    
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://retoodermatt.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
       <link>https://retoodermatt.com/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://retoodermatt.com/contact/</guid>
-      <description>   </description>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My 1st post</title>
+      <link>https://retoodermatt.com/about.de/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://retoodermatt.com/about.de/</guid>
+      <description>Nur meine persönliche Seite.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Hugo</title>
+      <link>https://retoodermatt.com/posts/introduction-to-hugo/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://retoodermatt.com/posts/introduction-to-hugo/</guid>
+      <description>Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
+Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</description>
+    </item>
+    
+    <item>
+      <title>Einführung zu Hugo</title>
+      <link>https://retoodermatt.com/posts/goisforlovers.de/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://retoodermatt.com/posts/goisforlovers.de/</guid>
+      <description>Hugo utilise l&amp;rsquo;excellente librairie go html/template pour son moteur de modèles. c&amp;rsquo;est un moteur extrêmement léger qui offre un très petit nombre de fonctions logiques. À notre expérience, c&amp;rsquo;est juste ce qu&amp;rsquo;il faut pour créer un bon site web statique. Si vous avez déjà utilisé d&amp;rsquo;autre moteurs de modèles pour différents langages ou frameworks, vous allez retrouver beaucoup de similitudes avec les modèles go.
+Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://retoodermatt.com/posts/first-post/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://retoodermatt.com/posts/first-post/</guid>
+      <description>Hi, just a first post.</description>
     </item>
     
   </channel>
