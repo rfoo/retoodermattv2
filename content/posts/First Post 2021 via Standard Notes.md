@@ -1,13 +1,13 @@
 ---
-categories : ["Hello"]
+categories : ["Hello","2021"]
 date : 2021-01-24
 description : ""
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""
-slug : "First Post"
-title : "First Post"
-type : ["posts","post"]
+slug : "First Post 2021"
+title : "First Post 2021 via Standard Notes"
+type : ["posts","post","2021"]
 author : "Reto Odermatt"
 ---
 ### First Post 2021 via Standard Notes
