@@ -5,7 +5,6 @@
     <link>https://retoodermatt.com/</link>
     <description>Recent content on Reto Odermatt</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://retoodermatt.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
@@ -52,6 +51,24 @@ Ce document est une introduction sur l&amp;rsquo;utilisation de Go templates.</d
       
       <guid>https://retoodermatt.com/posts/first-post/</guid>
       <description>Hi, just a first post.</description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>https://retoodermatt.com/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://retoodermatt.com/archive/</guid>
+      <description>archive</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>https://retoodermatt.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://retoodermatt.com/search/</guid>
+      <description>search</description>
     </item>
     
   </channel>
